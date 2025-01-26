@@ -1,0 +1,52 @@
+.Ledger{
+  margin: 20px;
+  border: 2px double rebeccapurple;
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  /* min-height: 200px;
+  max-height: 350px;
+  overflow-y: scroll !important; */
+}
+.BtnPagination{margin: 5px 10px;
+padding: 5px;}
+.Table{
+  width: 100%;
+  border: none;
+  column-gap: 0;
+  row-gap: 0;
+  margin: 0;
+  text-align: left;
+}
+thead{
+  background-color: cadetblue;
+  margin: 0;
+}
+.row{
+  width: 100%;
+  border-bottom: 1px solid rgb(197, 182, 182);
+}
+/* .row:hover{
+  background-color: rgb(160, 202, 228);
+} */
+.selectedRowBg{background: rgb(202, 176, 93) !important
+
+}
+.headerCol{
+  text-align: center;
+  padding: 5px;
+}
+.ledgerCol{
+  padding: 5px 10px;
+}
+.nameCol{
+  width: 70%;
+}
+.debitCol{
+  flex-grow: 1;
+  width: 15%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.creditCol{
+  width: 15%;
+}
